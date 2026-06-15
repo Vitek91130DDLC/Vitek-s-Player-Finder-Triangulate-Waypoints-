@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "triangulate-waypoint",
+  "version": "${version}",
+  "name": "Vitek's Player Finder",
+  "description": "Addon for Xaero's Minimap and World Map. Double press a key to set a waypoint at the intersection of two lines of sight.",
+  "authors": ["Vitek91130"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.triangulatewaypoint.TriangulateWaypointMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "xaerominimap": "*",
+    "xaeroworldmap": "*"
+  }
+}
